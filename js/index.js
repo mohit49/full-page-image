@@ -5,7 +5,7 @@ const selectors = {
 const homePageInit = () => {
     // register service worker
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./service-worker.js')
+        navigator.serviceWorker.register('https://mohit49.github.io/full-page-image/service-worker.js')
             .then(function(registration) {
                 console.log('Service Worker registered with scope:', registration.scope);
             })
