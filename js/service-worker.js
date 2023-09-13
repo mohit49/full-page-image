@@ -1,12 +1,13 @@
 // Service Worker implementation
 
 self.addEventListener('install', function(event) {
+    
     event.waitUntil(
         caches.open('simple-pwa-cache').then(function(cache) {
             return cache.addAll([
                 './',
-                'index.html',
-                'icon.png', // Update with your icon file
+                './index.html',
+                './ico.png', // Update with your icon file
             ]);
         })
     );
