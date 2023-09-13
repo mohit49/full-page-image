@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full-Page Component</title>
+    <meta name="description" content="A concise and informative description of your page's content goes here.">
+
+    <!-- Specify the author of the page -->
+    <meta name="author" content="Your Name or Your Company Name">
+
+    <!-- Define keywords related to your page -->
+    <meta name="keywords" content="Keyword1, Keyword2, Keyword3">
+
+    <!-- Specify the character set for your document -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Open Graph (OG) meta tags for social media sharing (replace with actual URLs and content) -->
+
+    <meta property="og:description" content="A concise and informative description of your page's content goes here.">
+    <meta property="og:image" content="images/full-image.jpg">
+    <meta property="og:url" content="https://example.com/your-page-url">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card meta tags for Twitter sharing (replace with actual content) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="Your Page Title">
+    <meta name="twitter:description" content="A concise and informative description of your page's content goes here.">
+    <meta name="twitter:image" content="images/full-image.jpg">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -11,11 +36,11 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a title="Home" href="#">Home</a></li>
+                    <li><a title="About" href="#">About</a></li>
+                    <li><a title="Services" href="#">Services</a></li>
+                    <li><a title="Portfolio" href="#">Portfolio</a></li>
+                    <li><a title="Contact" href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,7 +58,7 @@
                         <source media="(max-width: 550px)" srcset="images/mob-img.jpg" />
                         <source media="(max-width: 990px)" srcset="images/tab-img.jpg" />
                         <source media="(min-width: 991px)" srcset="images/full-image.jpg" />
-                        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+                        <img src="elva-800w.jpg" alt="travelimagealttext" />
                       </picture>
                 </div>
             </div>
