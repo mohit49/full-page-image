@@ -6,8 +6,8 @@ self.addEventListener('install', function(event) {
         caches.open('simple-pwa-cache').then(function(cache) {
             return cache.addAll([
                 './',
-                './index.html',
-                './ico.png', // Update with your icon file
+                'index.html',
+                'images/ico.png', // Update with your icon file
             ]);
         })
     );
