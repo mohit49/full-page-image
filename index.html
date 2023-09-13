@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Page Component</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="full-page-component">
+        <header></header>
+        <main>
+            <div class="card-tiles">
+                <div class="overlay-text">
+                    <div class="overlay-content">
+                        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                        <button class="main-banner-button">Click Here</button>
+                    </div>
+                </div>
+                <div class="back-card-image">
+                    <picture>
+                        <source media="(max-width: 550px)" srcset="images/mob-img.jpg" />
+                        <source media="(max-width: 990px)" srcset="images/tab-img.jpg" />
+                        <source media="(min-width: 991px)" srcset="images/full-image.jpg" />
+                        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+                      </picture>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
