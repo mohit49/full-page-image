@@ -108,11 +108,36 @@ p {
 }
 .full-page-component header,
 .full-page-component footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
   height: var(--header-height);
   width: 100%;
   background: #000000;
   background-color: var(--primary-color);
 }
+
+
+.full-page-component header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.full-page-component header nav li {
+    margin: 0 15px;
+}
+
+.full-page-component header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
 .full-page-component main {
   height: calc(100% - (var(--header-height) + var(--footer-height)));
   width: 100%;
